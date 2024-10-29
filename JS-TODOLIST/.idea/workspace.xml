@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0b89f7c-f9bc-4d94-9e3f-677f8e837495" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/img/main.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/img/main.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/swimming.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/swimming.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page1.html" beforeDir="false" afterPath="$PROJECT_DIR$/page1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page2.html" beforeDir="false" afterPath="$PROJECT_DIR$/page2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style1.css" beforeDir="false" afterPath="$PROJECT_DIR$/style1.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style2.css" beforeDir="false" afterPath="$PROJECT_DIR$/style2.css" afterDir="false" />
+    <list default="true" id="de36cb2c-521b-4cb0-93bd-e3c5b522cd2e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,27 +16,32 @@
     <execution />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="lab-a" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="C:\Users\Łukasz\php\php.exe" />
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 5
+  &quot;associatedIndex&quot;: 6
 }</component>
-  <component name="ProjectId" id="2mv4wVMv2QRZFaKXqviHjQPmL1O" />
+  <component name="ProjectId" id="2nYb6DvBqLWvgOk374WD20mNGJp" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;lab-b&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -56,19 +56,23 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b0b89f7c-f9bc-4d94-9e3f-677f8e837495" name="Changes" comment="" />
-      <created>1727943955018</created>
+      <changelist id="de36cb2c-521b-4cb0-93bd-e3c5b522cd2e" name="Changes" comment="" />
+      <created>1729152779716</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1727943955018</updated>
-      <workItem from="1727943956024" duration="4127000" />
-      <workItem from="1727948193154" duration="396000" />
-      <workItem from="1728548099515" duration="5315000" />
-      <workItem from="1728722038460" duration="18202000" />
-      <workItem from="1728747118114" duration="5842000" />
-      <workItem from="1728810817942" duration="47000" />
-      <workItem from="1728814386170" duration="3671000" />
-      <workItem from="1728830010939" duration="405000" />
+      <updated>1729152779716</updated>
+      <workItem from="1729152780471" duration="1254000" />
+      <workItem from="1729154309151" duration="3837000" />
+      <workItem from="1729188278044" duration="297000" />
+      <workItem from="1729757828785" duration="737000" />
+      <workItem from="1729758583877" duration="61000" />
+      <workItem from="1730026070521" duration="247000" />
+      <workItem from="1730026327510" duration="165000" />
+      <workItem from="1730026502222" duration="15949000" />
+      <workItem from="1730055126726" duration="269000" />
+      <workItem from="1730129996918" duration="10927000" />
+      <workItem from="1730196609270" duration="497000" />
+      <workItem from="1730199168075" duration="149000" />
     </task>
     <servers />
   </component>
