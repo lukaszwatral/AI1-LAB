@@ -14,7 +14,11 @@
 
 <div class="form-group">
     <label for="gender">Gender</label>
-    <input type="text" id="gender" name="dog[gender]" value="<?= $dog? $dog->getGender() : '' ?>">
+    <select id="gender" name="dog[gender]">
+        <option value="" disabled <?= !$dog || !$dog->getGender() ? 'selected' : '' ?>>Select Gender</option>
+        <option value="dog" <?= $dog && $dog->getGender() === 'male' ? 'selected' : '' ?>>Dog</option>
+        <option value="bitch" <?= $dog && $dog->getGender() === 'female' ? 'selected' : '' ?>>Bitch</option>
+    </select>
 </div>
 
 <div class="form-group">

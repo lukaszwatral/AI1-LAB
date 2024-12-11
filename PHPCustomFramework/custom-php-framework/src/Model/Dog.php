@@ -71,13 +71,13 @@ class Dog
         if (isset($array['id']) && !$this->getId()) {
             $this->setId($array['id']);
         }
-        if (isset($array['name']) && !$this->getName()) {
+        if (isset($array['name'])) {
             $this->setName($array['name']);
         }
-        if (isset($array['breed']) && !$this->getBreed()) {
+        if (isset($array['breed'])) {
             $this->setBreed($array['breed']);
         }
-        if (isset($array['gender']) && !$this->getGender()) {
+        if (isset($array['gender'])) {
             $this->setGender($array['gender']);
         }
         return $this;

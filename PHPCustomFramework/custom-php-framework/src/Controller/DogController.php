@@ -24,6 +24,16 @@ class DogController
         if ($requestDog) {
             $dog = Dog::fromArray($requestDog);
             // @todo missing validation
+            $errors = $this->validateDog($dog);
+            if (!empty($errors)) {
+                $html = $templating->render('dog/create.html.php', [
+                    'dog' => $dog,
+                    'errors' => $errors,
+                    'router' => $router,
+                ]);
+                return $html;
+            }
+
             $dog->save();
 
             $path = $router->generatePath('dog-index');
@@ -40,6 +50,21 @@ class DogController
         return $html;
     }
 
+    private function validateDog(Dog $dog): array
+    {
+        $errors = [];
+        if (empty($dog->getName())) {
+            $errors['name'] = 'Name is required';
+        }
+        if (empty($dog->getBreed())) {
+            $errors['breed'] = 'Breed is required';
+        }
+        if (empty($dog->getGender())) {
+            $errors['age'] = 'Gender is required';
+        }
+        return $errors;
+    }
+
     public function editAction(int $dogId, ?array $requestDog, Templating $templating, Router $router): ?string
     {
         $dog = Dog::find($dogId);
@@ -50,6 +75,15 @@ class DogController
         if($requestDog) {
             $dog->fill($requestDog);
             // @todo missing validation
+            $errors = $this->validateDog($dog);
+            if (!empty($errors)) {
+                $html = $templating->render('dog/edit.html.php', [
+                    'dog' => $dog,
+                    'errors' => $errors,
+                    'router' => $router,
+                ]);
+                return $html;
+            }
             $dog->save();
 
             $path = $router->generatePath('dog-index');

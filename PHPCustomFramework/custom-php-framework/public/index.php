@@ -48,14 +48,14 @@ switch ($action) {
         break;
     case 'dog-create':
         $controller = new \App\Controller\DogController();
-        $view = $controller->createAction($_REQUEST['post'] ?? null, $templating, $router);
+        $view = $controller->createAction($_REQUEST['dog'] ?? null, $templating, $router);
         break;
     case 'dog-edit':
         if (! $_REQUEST['id']) {
             break;
         }
         $controller = new \App\Controller\DogController();
-        $view = $controller->editAction($_REQUEST['id'], $_REQUEST['post'] ?? null, $templating, $router);
+        $view = $controller->editAction($_REQUEST['id'], $_REQUEST['dog'] ?? null, $templating, $router);
         break;
     case 'dog-show':
         if (! $_REQUEST['id']) {
